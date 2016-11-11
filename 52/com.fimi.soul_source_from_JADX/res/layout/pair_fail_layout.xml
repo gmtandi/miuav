@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/pair_fail" android:background="#2a2a2a" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+    <ImageView android:id="@id/fail_icon" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="41.3dp" android:src="@drawable/icon_calibration_defeat" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="16.6sp" android:textColor="#ccffffff" android:id="@id/pair_fail_rt" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="30.6dp" android:text="@string/pairt_sucessful" android:layout_below="@id/fail_icon" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="12sp" android:textColor="#77ffffff" android:id="@id/pair_rt_tip" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="25dp" android:text="@string/pair_fail_tip" android:layout_below="@id/pair_fail_rt" android:layout_centerHorizontal="true" />
+    <LinearLayout android:gravity="11" android:layout_width="256.5938dp" android:layout_height="40dp" android:layout_marginBottom="26.6dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <Button android:textSize="13.3sp" android:textColor="#e1ffffff" android:gravity="11" android:id="@id/exit_btn" android:background="@drawable/btn_left_choose" android:layout_width="-1" android:layout_height="-1" android:text="@string/exit" android:layout_weight="1.0" />
+        <Button android:textSize="13.3sp" android:textColor="#e1ffffff" android:gravity="11" android:id="@id/repair_btn" android:background="@drawable/btn_right_choose" android:layout_width="-1" android:layout_height="-1" android:text="@string/repair" android:layout_weight="1.0" android:layout_toRightOf="@id/noconnect_bt" />
+    </LinearLayout>
+</RelativeLayout>

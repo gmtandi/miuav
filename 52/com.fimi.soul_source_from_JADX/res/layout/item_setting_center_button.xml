@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout style="@style/CameraSettingOptionLayout">
+        <Button android:gravity="11" android:id="@id/btn_settingAction" android:text="@string/camera_reset_factory_mode" style="@style/CameraSettingRoundButtonCenter" />
+    </RelativeLayout>
+    <View style="@style/CameraSettingLine" />
+</LinearLayout>

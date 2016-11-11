@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fimi.kernel.view.percent.PercentRelativeLayout app:gravity="11" app:background="@drawable/btn_fly_back_bubble_bg" app:layout_width="-2" app:layout_height="-2">
+    <Button app:textSize="12dp" app:textColor="@color/drone_inface_line" app:gravity="11" app:id="@id/reminder" app:background="@drawable/singleinforwindowbg" app:layout_width="-2" app:layout_height="-2" app:text="@string/delete" />
+</com.fimi.kernel.view.percent.PercentRelativeLayout>

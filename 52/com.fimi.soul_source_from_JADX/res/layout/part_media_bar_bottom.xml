@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="11" android:id="@id/ll_actionBottom" android:background="@drawable/title_bottom_bg" android:visibility="0" android:layout_width="-1" android:layout_height="67dp" android:layout_alignParentBottom="true">
+    <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2"
+        <LinearLayout android:gravity="11" android:orientation="1" android:id="@id/ll_bottomShare" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="42dp">
+            <ImageButton android:id="@id/btn_bottomShare" android:background="@drawable/btn_share_selector" android:layout_width="31dp" android:layout_height="31dp" android:layout_marginTop="5dp" />
+            <TextView android:textSize="9sp" android:textColor="#66ffffff" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="@string/share" />
+        </LinearLayout>
+        <LinearLayout android:gravity="11" android:orientation="1" android:id="@id/ll_bottomDownload" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="42dp">
+            <ImageButton android:id="@id/btn_bottomDownload" android:background="@drawable/btn_download_selector" android:layout_width="31dp" android:layout_height="31dp" android:layout_marginTop="5dp" />
+            <TextView android:textSize="9sp" android:textColor="#66ffffff" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="@string/download" />
+        </LinearLayout>
+        <LinearLayout android:gravity="11" android:orientation="1" android:id="@id/ll_bottomDelete" android:layout_width="-2" android:layout_height="-2">
+            <ImageButton android:id="@id/btn_bottomDelete" android:background="@drawable/btn_delete_selector" android:layout_width="31dp" android:layout_height="31dp" android:layout_marginTop="5dp" />
+            <TextView android:textSize="9sp" android:textColor="#66ffffff" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="@string/delete" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

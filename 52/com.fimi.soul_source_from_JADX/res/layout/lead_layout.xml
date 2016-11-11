@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fimi.kernel.view.percent.PercentRelativeLayout app:orientation="1" app:id="@id/root_layout" app:background="#b2000000" app:clickable="true" app:layout_width="-1" app:layout_height="-1">
+    <RelativeLayout app:id="@id/error_status_layout" app:layout_width="-1" app:layout_height="-2" app:layout_marginRight="180dp" app:layout_marginTopPercent="8.88%h">
+        <ImageView app:id="@id/error_status_line" app:layout_width="-2" app:layout_height="-2" app:src="@drawable/img_fly_guide_line_one" app:layout_alignParentRight="true" />
+        <TextView app:textSize="14sp" app:textColor="#4ccdf7" app:id="@id/error_status_title" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="54dp" app:layout_marginRight="10dp" app:text="@string/error_title" app:layout_toLeftOf="@id/error_status_line" />
+        <TextView app:textSize="14sp" app:textColor="@color/white" app:gravity="15" app:id="@id/error_des" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="13.3dp" app:layout_marginRight="10dp" app:text="@string/error_status_des" app:lines="2" app:layout_toLeftOf="@id/error_status_line" app:layout_below="@id/error_status_title" />
+    </RelativeLayout>
+    <RelativeLayout app:id="@id/controll_status_layout" app:layout_width="-1" app:layout_height="-1" app:layout_marginTopPercent="68.1%h">
+        <ImageView app:id="@id/controll_status_line" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="10.8dp" app:layout_marginRight="212dp" app:src="@drawable/img_fly_guide_line_three" app:layout_alignParentRight="true" />
+        <TextView app:textSize="14sp" app:textColor="#4ccdf7" app:id="@id/controll_status_title" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="18.8dp" app:layout_marginRight="10dp" app:text="@string/controller_title" app:layout_toLeftOf="@id/controll_status_line" />
+        <TextView app:textSize="14sp" app:textColor="@color/white" app:gravity="15" app:id="@id/controller_des" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="13.3dp" app:layout_marginRight="10dp" app:text="@string/controller_des" app:lines="2" app:layout_toLeftOf="@id/controll_status_line" app:layout_below="@id/controll_status_title" />
+    </RelativeLayout>
+    <RelativeLayout app:id="@id/baoxiang_layout" app:layout_width="-1" app:layout_height="-2" app:layout_marginTopPercent="48.4%h">
+        <ImageView app:id="@id/baibaoxiang_icon" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="1.8dp" app:layout_marginRight="77.3dp" app:src="@drawable/img_fly_guide_line_five" app:layout_alignParentRight="true" />
+        <TextView app:textSize="14sp" app:textColor="#4ccdf7" app:id="@id/baibaoxiang_title" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="10dp" app:text="@string/baibaoxiang" app:layout_toLeftOf="@id/baibaoxiang_icon" />
+        <TextView app:textSize="14sp" app:textColor="@color/white" app:id="@id/baibaoxiang_des" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="13.3dp" app:layout_marginRight="10dp" app:text="@string/baibaoxiang_des" app:layout_toLeftOf="@id/baibaoxiang_icon" app:layout_below="@id/baibaoxiang_title" />
+    </RelativeLayout>
+    <RelativeLayout app:id="@id/location_layout" app:layout_width="-1" app:layout_height="-2" app:layout_marginTopPercent="68.14%h">
+        <ImageView app:id="@id/location_icon" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="1.8dp" app:layout_marginRight="87.7dp" app:src="@drawable/img_fly_guide_line_four" app:layout_alignParentRight="true" />
+        <TextView app:textSize="14sp" app:textColor="#4ccdf7" app:id="@id/location_title" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="10dp" app:text="@string/my_location" app:layout_toLeftOf="@id/location_icon" />
+        <TextView app:textSize="14sp" app:textColor="@color/white" app:gravity="15" app:id="@id/location_des" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="13.3dp" app:layout_marginRight="10dp" app:text="@string/location_des" app:layout_toLeftOf="@id/location_icon" app:layout_below="@id/location_title" />
+    </RelativeLayout>
+    <RelativeLayout app:id="@id/gsp_layout" app:layout_width="-1" app:layout_height="-2" app:layout_marginTopPercent="68.14%h">
+        <ImageView app:id="@id/gsp_icon" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="1.8dp" app:layout_marginRight="30dp" app:src="@drawable/img_fly_guide_line_two" app:layout_alignParentRight="true" />
+        <TextView app:textSize="14sp" app:textColor="#4ccdf7" app:id="@id/gsp_title" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="10dp" app:text="@string/gps" app:layout_toLeftOf="@id/gsp_icon" />
+        <TextView app:textSize="14sp" app:textColor="@color/white" app:gravity="15" app:id="@id/gsp_des" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="13.3dp" app:layout_marginRight="10dp" app:text="@string/gps_des" app:layout_toLeftOf="@id/gsp_icon" app:layout_below="@id/gsp_title" />
+    </RelativeLayout>
+    <RelativeLayout app:gravity="10" app:id="@id/setting_layout" app:layout_width="-1" app:layout_height="-2" app:layout_marginTopPercent="27.86%h">
+        <ImageView app:id="@id/setting_icon" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="1.8dp" app:layout_marginRight="87.7dp" app:src="@drawable/img_fly_guide_line_four" app:layout_alignParentRight="true" />
+        <TextView app:textSize="14sp" app:textColor="#4ccdf7" app:id="@id/setting_title" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="10dp" app:text="@string/setting" app:layout_toLeftOf="@id/setting_icon" />
+        <TextView app:textSize="14sp" app:textColor="@color/white" app:id="@id/setting_des" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="13.3dp" app:layout_marginRight="10dp" app:text="@string/setting_stauts_des" app:layout_toLeftOf="@id/setting_icon" app:layout_below="@id/setting_title" />
+    </RelativeLayout>
+    <RelativeLayout app:gravity="10" app:id="@id/battery_layout" app:layout_width="-1" app:layout_height="-2" app:layout_marginTopPercent="27.86%h">
+        <ImageView app:id="@id/battery_icon" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="1.8dp" app:layout_marginRight="30dp" app:src="@drawable/img_fly_guide_line_two" app:layout_alignParentRight="true" />
+        <TextView app:textSize="14sp" app:textColor="#4ccdf7" app:id="@id/battery_title" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="10dp" app:text="@string/battery_title" app:layout_toLeftOf="@id/battery_icon" />
+        <TextView app:textSize="14sp" app:textColor="@color/white" app:gravity="15" app:id="@id/battery_des" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="13.3dp" app:layout_marginRight="10dp" app:text="@string/battery_des" app:layout_toLeftOf="@id/battery_icon" app:layout_below="@id/battery_title" />
+    </RelativeLayout>
+    <RelativeLayout app:gravity="10" app:id="@id/modle_layout" app:layout_width="-1" app:layout_height="-2" app:layout_marginTopPercent="48.0%h">
+        <ImageView app:id="@id/modle_icon" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="77.3dp" app:layout_marginTop="1.8dp" app:src="@drawable/img_fly_guide_line_six" app:layout_alignParentLeft="true" />
+        <TextView app:textSize="14sp" app:textColor="#4ccdf7" app:id="@id/modle_title" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="10dp" app:text="@string/modle_title" app:layout_toRightOf="@id/modle_icon" />
+        <TextView app:textSize="14sp" app:textColor="@color/white" app:gravity="13" app:id="@id/modle_des" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="10dp" app:layout_marginTop="13.3dp" app:text="@string/modle_des" app:layout_toRightOf="@id/modle_icon" app:layout_below="@id/modle_title" />
+    </RelativeLayout>
+</com.fimi.kernel.view.percent.PercentRelativeLayout>

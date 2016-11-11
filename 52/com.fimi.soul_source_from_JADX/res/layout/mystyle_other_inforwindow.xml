@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fimi.kernel.view.percent.PercentRelativeLayout app:gravity="11" app:background="@drawable/btn_fly_home_bg" app:layout_width="96dp" app:layout_height="69dp">
+    <TextView app:textSize="12dp" app:textColor="@color/black" app:gravity="11" app:id="@id/reminder" app:paddingLeft="3dp" app:paddingTop="3dp" app:paddingRight="3dp" app:paddingBottom="3dp" app:layout_width="-1" app:layout_height="-1" app:text="" app:maxEms="8" app:alpha="0.7" />
+</com.fimi.kernel.view.percent.PercentRelativeLayout>

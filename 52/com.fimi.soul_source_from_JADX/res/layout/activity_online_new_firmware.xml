@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fimi.kernel.view.percent.PercentRelativeLayout app:orientation="1" app:background="@drawable/upgradbg" app:layout_width="-1" app:layout_height="-1">
+    <ImageView app:background="@drawable/find_new_version_icon" app:layout_width="0dp" app:layout_height="0dp" app:layout_centerHorizontal="true" app:layout_widthPercent="51%h" app:layout_heightPercent="51%h" app:layout_marginTopPercent="14.10%h" />
+    <ImageView app:id="@id/down_img_an" app:layout_width="0dp" app:layout_height="0dp" app:layout_centerHorizontal="true" app:layout_widthPercent="11.11%h" app:layout_heightPercent="11.11%h" app:layout_marginTopPercent="34.10%h" />
+    <TextView app:textSize="16.7sp" app:textColor="#b4ffffff" app:id="@id/down_firmware_title" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="217dp" app:text="@string/update_firmware_title" app:layout_centerHorizontal="true" />
+    <TextView app:textSize="12sp" app:textColor="#44ffffff" app:id="@id/down_firmware_detail" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="239.67dp" app:layout_centerHorizontal="true" />
+    <LinearLayout app:layout_width="-2" app:layout_height="-2" app:layout_marginBottom="43.33dp" app:layout_alignParentBottom="true" app:layout_centerHorizontal="true">
+        <Button app:id="@id/btn_down_after" app:background="@drawable/btn_left_choose" app:text="@string/after_upgrade_down" style="@style/btn_choose_left_style" />
+        <Button app:id="@id/btn_down" app:background="@drawable/btn_right_choose" app:text="@string/now_upgrade_down" style="@style/btn_choose_right_style" />
+    </LinearLayout>
+</com.fimi.kernel.view.percent.PercentRelativeLayout>

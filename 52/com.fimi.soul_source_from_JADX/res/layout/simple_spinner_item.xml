@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="12dp" android:textColor="@color/color_height" android:gravity="10" android:id="0x1020014" android:background="@smileconstants/TOKEN_PREFIX_SHARED_STRING_SHORT" android:paddingLeft="20dp" android:paddingRight="40dp" android:layout_width="-1" android:layout_height="31dp" android:singleLine="true" />

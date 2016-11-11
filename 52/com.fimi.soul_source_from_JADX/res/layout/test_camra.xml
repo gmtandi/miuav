@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout app:id="@id/drawerview" app:layout_width="-1" app:layout_height="-1">
+    <include layout="@layout/fragment_camera_preview" />
+    <Button app:textSize="30sp" app:textColor="@color/white" app:layout_gravity="30" app:id="@id/btn_startPlay" app:layout_width="-2" app:layout_height="-2" app:text="開始播放視頻" />
+    <Button app:textSize="30sp" app:textColor="@color/white" app:layout_gravity="50" app:id="@id/btn_startThumb" app:layout_width="-2" app:layout_height="-2" app:text="開始獲取縮略圖" />
+</FrameLayout>

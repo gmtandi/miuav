@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="11" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:textSize="10dp" android:textColor="@color/mystyle_markerinfo" android:gravity="11" android:id="@id/point_heightValue" android:background="@drawable/bg_fly_height_show" android:layout_width="-2" android:layout_height="-2" android:text="100m" />
+    <ImageView android:id="@id/markerIcon" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10dp" android:layout_marginTop="3dp" android:layout_below="@id/point_heightValue" />
+</RelativeLayout>

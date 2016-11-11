@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fimi.kernel.view.percent.PercentRelativeLayout app:background="@drawable/calibration_newbie_bg" app:layout_width="-1" app:layout_height="-1">
+    <ImageView app:id="@id/okay_icon" app:layout_width="-2" app:layout_height="-2" app:src="@drawable/newbie_finish_icon" app:layout_centerHorizontal="true" app:layout_marginTopPercent="17.2%h" />
+    <TextView app:textSize="23sp" app:textColor="#ffffff" app:id="@id/tv_finish" app:layout_width="-2" app:layout_height="-2" app:text="@string/new_hand_finish" app:layout_below="@id/okay_icon" app:layout_centerHorizontal="true" app:layout_marginTopPercent="6.1%h" />
+    <TextView app:textSize="19sp" app:textColor="#93ffffff" app:id="@id/tv_content" app:layout_width="-2" app:layout_height="-2" app:text="@string/new_hand_isfinish" app:layout_below="@id/tv_finish" app:layout_centerHorizontal="true" app:layout_marginTopPercent="2.5%h" />
+    <LinearLayout app:layout_gravity="1" app:orientation="0" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="270.6641dp" app:layout_centerHorizontal="true">
+        <Button app:id="@id/btn_study_again" app:background="@drawable/btn_left_choose" app:text="@string/study_again" style="@style/btn_choose_left_style" />
+        <Button app:id="@id/btn_try_fly" app:background="@drawable/btn_right_choose" app:text="@string/try_fly" style="@style/btn_choose_right_style" />
+    </LinearLayout>
+</com.fimi.kernel.view.percent.PercentRelativeLayout>

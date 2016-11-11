@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout fresco:layout_gravity="11" fresco:orientation="1" fresco:background="#000000" fresco:layout_width="-1" fresco:layout_height="-1">
+    <FrameLayout fresco:layout_width="-1" fresco:layout_height="-1">
+        <com.fimi.soul.view.photodraweeview.PhotoDraweeView fresco:id="@id/gallery" fresco:visibility="1" fresco:layout_width="-1" fresco:layout_height="-1" fresco:layout_margin="1dp" fresco:minWidth="800dp" fresco:minHeight="800dp" fresco:failureImageScaleType="2" />
+        <ProgressBar fresco:layout_gravity="11" fresco:id="@id/progress" fresco:layout_width="-2" fresco:layout_height="-2" fresco:layout_margin="10dp" style="?unknown_attr_ref: 1010287" />
+    </FrameLayout>
+</LinearLayout>

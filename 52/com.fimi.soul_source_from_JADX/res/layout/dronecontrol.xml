@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fimi.kernel.view.percent.PercentRelativeLayout app:gravity="5" app:layout_width="-1" app:layout_height="-1">
+    <FrameLayout app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="130dp" app:layout_alignParentRight="true" app:layout_centerVertical="true">
+        <ImageButton app:id="@id/closebutton" app:background="@drawable/controlclosebg" app:layout_width="-2" app:layout_height="-2" app:src="@drawable/dronecloseicon" />
+    </FrameLayout>
+    <com.fimi.kernel.view.percent.PercentLinearLayout app:gravity="5" app:orientation="1" app:layout_width="0dp" app:layout_height="-1" app:weightSum="7.0" app:layout_alignParentRight="true" app:layout_widthPercent="54.722%h">
+        <com.fimi.kernel.view.percent.PercentRelativeLayout app:gravity="15" app:id="@id/takeoffrl" app:layout_width="-1" app:layout_height="0dp" app:layout_weight="1.0">
+            <ImageView app:background="@drawable/controlfirstbg" app:layout_width="-2" app:layout_height="-1" />
+            <ImageView app:id="@id/takeofficon" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="55dp" app:layout_marginTop="17dp" app:src="@drawable/takeoffing" />
+            <TextView app:textSize="13sp" app:textColor="@color/white" app:id="@id/takeofftext" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="12dp" app:layout_marginTop="17dp" app:text="@string/takeoff" app:layout_toRightOf="@id/takeofficon" app:layout_alignBaseline="@id/takeofficon" app:alpha="0.9" />
+        </com.fimi.kernel.view.percent.PercentRelativeLayout>
+        <com.fimi.kernel.view.percent.PercentRelativeLayout app:gravity="15" app:id="@id/landingpl" app:layout_width="-1" app:layout_height="0dp" app:layout_weight="1.0">
+            <ImageView app:background="@drawable/controlsecondbg" app:layout_width="192dp" app:layout_height="-1" />
+            <ImageView app:id="@id/landingicon" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="67.4dp" app:layout_marginTop="18dp" app:src="@drawable/landingicon" />
+            <TextView app:textSize="13sp" app:textColor="@color/white" app:id="@id/landingtext" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="12dp" app:layout_marginTop="17dp" app:text="@string/landfall" app:layout_toRightOf="@id/landingicon" app:layout_alignBaseline="@id/landingicon" app:alpha="0.9" />
+        </com.fimi.kernel.view.percent.PercentRelativeLayout>
+        <com.fimi.kernel.view.percent.PercentRelativeLayout app:gravity="15" app:id="@id/gohomepl" app:layout_width="-2" app:layout_height="0dp" app:layout_weight="1.0">
+            <ImageView app:background="@drawable/controlthridbg" app:layout_width="141dp" app:layout_height="-1" />
+            <ImageView app:id="@id/gohomeicon" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="25.9dp" app:layout_marginTop="20dp" app:src="@drawable/gohomeicon" />
+            <TextView app:textSize="13sp" app:textColor="@color/white" app:id="@id/gohometext" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="12dp" app:layout_marginTop="17dp" app:text="@string/gotohome" app:layout_toRightOf="@id/gohomeicon" app:layout_alignBaseline="@id/gohomeicon" app:alpha="0.9" />
+        </com.fimi.kernel.view.percent.PercentRelativeLayout>
+        <com.fimi.kernel.view.percent.PercentRelativeLayout app:gravity="15" app:id="@id/detoruingpointpl" app:layout_width="132dp" app:layout_height="0dp" app:layout_weight="1.0">
+            <ImageView app:background="@drawable/controlfourbg" app:layout_width="132dp" app:layout_height="-1" app:layout_alignParentRight="true" />
+            <ImageView app:id="@id/detoruingpointicon" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="25.9dp" app:layout_marginTop="17dp" app:src="@drawable/detouringicon" />
+            <TextView app:textSize="13sp" app:textColor="@color/white" app:id="@id/controlfourtext" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="12dp" app:layout_marginTop="17dp" app:text="@string/detoruingpoint" app:layout_toRightOf="@id/detoruingpointicon" app:layout_alignBaseline="@id/detoruingpointicon" app:alpha="0.9" />
+        </com.fimi.kernel.view.percent.PercentRelativeLayout>
+        <com.fimi.kernel.view.percent.PercentRelativeLayout app:id="@id/takephonemyselfpl" app:layout_width="141dp" app:layout_height="0dp" app:layout_weight="1.0">
+            <ImageView app:background="@drawable/controlfivebg" app:layout_width="141dp" app:layout_height="-1" app:layout_alignParentRight="true" />
+            <ImageView app:id="@id/takephoneicon" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="26dp" app:layout_marginTop="17.5dp" app:src="@mipmap/icon_fly_mode_selfie" />
+            <TextView app:textSize="13sp" app:textColor="@color/white" app:id="@id/takephonetext" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="12dp" app:layout_marginTop="17.3dp" app:text="@string/fly_take_photo" app:layout_toRightOf="@id/takephoneicon" app:layout_alignBaseline="@id/detoruingpointicon" app:alpha="0.9" />
+        </com.fimi.kernel.view.percent.PercentRelativeLayout>
+        <com.fimi.kernel.view.percent.PercentRelativeLayout app:id="@id/setwaypointpl" app:layout_width="-2" app:layout_height="0dp" app:layout_weight="1.0">
+            <ImageView app:background="@drawable/controlsixbg" app:layout_width="192.5dp" app:layout_height="-1" />
+            <ImageView app:id="@id/setwaypointicon" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="67dp" app:layout_marginTop="18dp" app:src="@drawable/setwaypointicon" />
+            <TextView app:textSize="13sp" app:textColor="@color/white" app:id="@id/waypointtext" app:paddingLeft="12dp" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="18dp" app:text="@string/settingwaypoint" app:layout_toRightOf="@id/setwaypointicon" app:layout_alignBaseline="@id/setwaypointicon" app:alpha="0.9" />
+        </com.fimi.kernel.view.percent.PercentRelativeLayout>
+        <com.fimi.kernel.view.percent.PercentRelativeLayout app:gravity="15" app:id="@id/setdestination" app:layout_width="-1" app:layout_height="0dp" app:layout_weight="1.0">
+            <ImageView app:background="@drawable/controlsevenbg" app:layout_width="192.5dp" app:layout_height="-1" />
+            <ImageView app:id="@id/setdestinationicon" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="45.6dp" app:layout_marginTop="20dp" app:src="@drawable/setestinationicon" />
+            <TextView app:textSize="13sp" app:textColor="@color/white" app:id="@id/targetplacetext" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="12dp" app:layout_marginTop="18dp" app:text="@string/settingtargetplace" app:layout_toRightOf="@id/setdestinationicon" app:layout_alignBaseline="@id/setdestinationicon" app:alpha="0.9" />
+        </com.fimi.kernel.view.percent.PercentRelativeLayout>
+    </com.fimi.kernel.view.percent.PercentLinearLayout>
+</com.fimi.kernel.view.percent.PercentRelativeLayout>

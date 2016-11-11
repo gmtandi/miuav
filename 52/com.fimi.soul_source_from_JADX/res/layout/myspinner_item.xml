@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@drawable/bg_fly_combobox_more_conter" android:layout_width="-2" android:layout_height="-2">
+    <ListView android:id="@id/list_head_angle" android:layout_width="-2" android:layout_height="-2" android:divider="@smileconstants/TOKEN_PREFIX_SHARED_STRING_SHORT" />
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff1f1f21" android:layout_width="-1" android:layout_height="-1"
+    <RelativeLayout android:id="@id/title_layout" android:background="#2a2a2a" android:layout_width="-1" android:layout_height="50dp" android:layout_alignParentTop="true">
+        <ImageView android:id="@id/back_btn" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9.6dp" android:src="@drawable/btn_setting_back_selector" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="15sp" android:textColor="@color/white" android:id="@id/fly_log_title" android:layout_width="-2" android:layout_height="-2" android:text="@string/fly_logs" android:layout_centerInParent="true" />
+        <ImageView android:background="#4a4a4a" android:layout_width="-1" android:layout_height="1px" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/del_layout" android:background="#2a2a2a" android:visibility="2" android:layout_width="-1" android:layout_height="50dp" android:layout_alignParentTop="true">
+        <Button android:textColor="@drawable/tab_video_color_selector" android:gravity="11" android:id="@id/unall_btn" android:background="@drawable/frame_selector" android:layout_width="50dp" android:layout_height="-2" android:layout_marginLeft="9.6dp" android:text="@string/cancel" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="15sp" android:textColor="@color/white" android:id="@id/del_title" android:layout_width="-2" android:layout_height="-2" android:text="@string/fly_logs" android:layout_centerInParent="true" />
+        <Button android:textColor="@drawable/tab_video_color_selector" android:gravity="11" android:id="@id/all_btn" android:background="@drawable/frame_selector" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="9.6dp" android:minWidth="50dp" android:text="@string/select_all" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <ImageView android:background="#4a4a4a" android:layout_width="-1" android:layout_height="1dp" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/log_list_layout" android:background="#ff1f1f21" android:paddingLeft="17.6dp" android:paddingRight="17.6dp" android:visibility="2" android:layout_width="-1" android:layout_height="50dp" android:layout_below="@id/title_layout">
+        <TextView android:textSize="12sp" android:textColor="#7dffffff" android:layout_width="-2" android:layout_height="-2" android:text="@string/fly_list_name" android:layout_centerVertical="true" />
+        <ImageView android:background="#4a4a4a" android:layout_width="-1" android:layout_height="1px" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_below="@id/log_list_layout">
+        <ListView android:id="@id/log_list" android:background="#ff1f1f21" android:scrollbars="0" android:fadingEdge="0" android:animationCache="@asyncimageview/a" android:layout_width="-1" android:layout_height="-1" android:cacheColorHint="@asyncimageview/a" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="1" android:orientation="1" android:id="@id/bottom_layout" android:background="#ff1f1f21" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_weight="0.0" android:layout_alignParentBottom="true">
+            <ImageView android:layout_gravity="31" android:background="#4a4a4a" android:layout_width="-1" android:layout_height="1px" android:layout_weight="0.0" />
+            <ImageButton android:id="@id/del_btn" android:background="@smileconstants/TOKEN_PREFIX_SHARED_STRING_SHORT" android:paddingTop="5dp" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/btn_delete_selector" />
+            <TextView android:textSize="10sp" android:textColor="#ffffff" android:id="@id/del_des" android:paddingBottom="5dp" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="6dp" android:text="@string/delete" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

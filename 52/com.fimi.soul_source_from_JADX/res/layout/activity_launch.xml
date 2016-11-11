@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#1f1f21" android:layout_width="-1" android:layout_height="-1">
+    <ImageView android:id="@id/logo_icon_iv" android:background="@drawable/logo_icon" android:layout_width="56.6dp" android:layout_height="56.6dp" android:layout_marginTop="125dp" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="14sp" android:textColor="#7fffffff" android:id="@id/launch_center_tv" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="14dp" android:text="@string/use_angle_record_moments" android:layout_below="@id/logo_icon_iv" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="10sp" android:textColor="#32ffffff" android:id="@id/launch_bottom_tv" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="10dp" android:text="Copyright © 2015-2016 Fimi, All Rights Reserved." android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

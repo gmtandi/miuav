@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fimi.kernel.view.percent.PercentLinearLayout app:orientation="1" app:id="@id/activity_general_setting" app:background="#ff1f1f21" app:layout_width="-1" app:layout_height="-1">
+    <com.fimi.kernel.view.percent.PercentRelativeLayout app:background="#2a2a2a" app:layout_width="-1" app:layout_height="0dp" app:layout_heightPercent="13.79%">
+        <Button app:id="@id/back_btn" app:background="@drawable/btn_setting_back_selector" app:layout_width="0dp" app:layout_height="0dp" app:layout_centerVertical="true" app:layout_widthPercent="57.7%h" app:layout_heightPercent="57.7%h" app:layout_marginLeftPercent="1.71%" />
+        <TextView app:textColor="#ffffffff" app:id="@id/suggestTitle" app:layout_width="-2" app:layout_height="-2" app:text="@string/user_feedback" app:layout_centerHorizontal="true" app:layout_centerVertical="true" app:layout_textSizePercent="28.1%" />
+    </com.fimi.kernel.view.percent.PercentRelativeLayout>
+    <TextView app:background="#4a4a4a" app:layout_width="-1" app:layout_height="1px" />
+    <ScrollView app:id="@id/scrollView1" app:paddingLeft="23.33dp" app:fadingEdge="0" app:layout_width="-1" app:layout_height="-2" app:overScrollMode="2">
+        <com.fimi.kernel.view.percent.PercentLinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-1">
+            <TextView app:textSize="12sp" app:textColor="#80ffffff" app:id="@id/textView1" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="28.33sp" app:text="@string/feedback_select_delcare" app:layout_marginTopPercent="7.75%" />
+            <TextView app:background="#454546" app:layout_width="-1" app:layout_height="1px" app:layout_marginRight="23.33dp" app:layout_marginTopPercent="2.3%" />
+            <com.fimi.kernel.view.percent.PercentRelativeLayout app:gravity="10" app:orientation="0" app:layout_width="-1" app:layout_height="-2" app:layout_marginTopPercent="4.06%">
+                <CheckBox app:gravity="11" app:id="@id/fimi_plane" app:layout_width="-2" app:layout_height="-2" app:layout_centerVertical="true" style="@style/custom_checkbox_theme" />
+                <TextView app:textSize="13sp" app:textColor="#ccffffff" app:id="@id/plane_des" app:layout_width="-2" app:layout_height="-2" app:text="@string/feedbacl_plane" app:layout_toRightOf="@id/fimi_plane" app:layout_centerVertical="true" app:layout_marginLeftPercent="2.0%w" />
+                <CheckBox app:id="@id/fimi_control" app:layout_width="-2" app:layout_height="-2" app:layout_toRightOf="@id/plane_des" app:layout_centerVertical="true" app:layout_marginLeftPercent="8.9%w" style="@style/custom_checkbox_theme" />
+                <TextView app:textSize="13sp" app:textColor="#ccffffff" app:id="@id/control_des" app:layout_width="-2" app:layout_height="-2" app:text="@string/feedback_remote" app:layout_toRightOf="@id/fimi_control" app:layout_centerVertical="true" app:layout_marginLeftPercent="2.0%w" />
+                <CheckBox app:id="@id/fimi_camera" app:layout_width="-2" app:layout_height="-2" app:layout_toRightOf="@id/control_des" app:layout_centerVertical="true" app:layout_marginLeftPercent="8.9%w" style="@style/custom_checkbox_theme" />
+                <TextView app:textSize="13sp" app:textColor="#ccffffff" app:id="@id/camera_des" app:layout_width="-2" app:layout_height="-2" app:text="@string/feedback_integration_of_camera_and_tripod" app:layout_toRightOf="@id/fimi_camera" app:layout_centerVertical="true" app:layout_marginLeftPercent="2.0%w" />
+                <CheckBox app:id="@id/fimi_app" app:layout_width="-2" app:layout_height="-2" app:layout_toRightOf="@id/camera_des" app:layout_centerVertical="true" app:layout_marginLeftPercent="8.9%w" style="@style/custom_checkbox_theme" />
+                <TextView app:textSize="13sp" app:textColor="#ccffffff" app:id="@id/app_des" app:layout_width="-2" app:layout_height="-2" app:text="APP" app:layout_toRightOf="@id/fimi_app" app:layout_centerVertical="true" app:layout_marginLeftPercent="2.0%w" />
+            </com.fimi.kernel.view.percent.PercentRelativeLayout>
+            <TextView app:background="#454546" app:layout_width="-1" app:layout_height="1px" app:layout_marginRight="23.33dp" app:layout_heightPercent="0.2%h" app:layout_marginTopPercent="4.06%" />
+            <TextView app:textSize="12sp" app:textColor="#80ffffff" app:id="@id/textView2" app:layout_width="-2" app:layout_height="-2" app:text="@string/feed_back_problems_and_opinions" app:layout_marginTopPercent="7.9%" />
+            <EditText app:textSize="14sp" app:textColor="#80ffffff" app:textColorHint="#33ffffff" app:gravity="30" app:id="@id/suggestEdit" app:background="@drawable/edit_frame_color" app:layout_width="-1" app:layout_height="-2" app:layout_marginRight="23.33dp" app:maxHeight="202px" app:minHeight="202px" app:hint="@string/feed_back_please_input_you_advice" app:maxLength="500" app:layout_marginTopPercent="2.3%" />
+            <TextView app:textSize="12sp" app:textColor="#80ffffff" app:id="@id/textView3" app:layout_width="-2" app:layout_height="-2" app:text="@string/feed_back_photo_screen_shot" app:layout_marginTopPercent="7.6%" />
+            <RelativeLayout app:layout_width="-2" app:layout_height="-2" app:layout_marginTopPercent="2.3%">
+                <ImageView app:id="@id/image_add0" app:background="@drawable/add_images_box" app:layout_width="-2" app:layout_height="-2" app:layout_margin="3dp" app:layout_marginTop="15px" />
+                <ImageView app:id="@id/image_del" app:background="@drawable/remove_images_icon" app:layout_width="18sp" app:layout_height="18sp" app:layout_margin="3dp" app:layout_marginTop="15px" app:layout_alignTop="@id/image_add0" app:layout_alignRight="@id/image_add0" />
+            </RelativeLayout>
+            <TextView app:textSize="12sp" app:textColor="#80ffffff" app:id="@id/textView4" app:layout_width="-1" app:layout_height="-2" app:text="@string/feed_back_contact_information" app:layout_marginTopPercent="6.98%" />
+            <EditText app:textSize="14sp" app:textColor="#80ffffff" app:textColorHint="#33ffffff" app:id="@id/contactEdit" app:background="@drawable/edit_frame_color" app:layout_width="-1" app:layout_height="-2" app:layout_marginRight="23.33dp" app:maxHeight="40dp" app:minHeight="40dp" app:hint="@string/feed_back_connect_hint" app:maxLength="20" app:digits="@string/contactlimit" app:layout_marginTopPercent="2.3%" />
+            <Button app:textSize="13.33sp" app:textColor="#e6ffffff" app:id="@id/sendSuggest" app:background="@drawable/register_btn_selector" app:layout_width="-1" app:layout_height="-1" app:layout_marginRight="23.33dp" app:text="@string/feed_back_submit_button" app:height="40sp" app:layout_centerHorizontal="true" app:layout_centerVertical="true" app:layout_marginTopPercent="8.74%" />
+            <TextView app:background="#ff1f1f21" app:layout_width="-1" app:layout_height="0dp" app:layout_heightPercent="0.2%h" app:layout_marginTopPercent="6.29%" />
+        </com.fimi.kernel.view.percent.PercentLinearLayout>
+    </ScrollView>
+</com.fimi.kernel.view.percent.PercentLinearLayout>

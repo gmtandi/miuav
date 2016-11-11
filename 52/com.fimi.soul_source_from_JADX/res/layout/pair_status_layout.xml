@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="11" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <include android:layout_gravity="11" android:layout_width="-1" android:layout_height="-1" layout="@layout/prepare_paircode_layout" />
+    <include android:layout_width="-1" android:layout_height="-1" layout="@layout/start_paircode_layout" />
+    <include android:layout_width="-1" android:layout_height="-1" layout="@layout/unable_paircode_layout" />
+</RelativeLayout>

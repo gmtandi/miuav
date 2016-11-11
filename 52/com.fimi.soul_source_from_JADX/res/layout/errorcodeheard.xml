@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:textSize="15dp" android:id="@id/errorheard" android:paddingLeft="@dimen/listmarginLeft" android:layout_width="-1" android:layout_height="-1" android:text="coordheard" />
+</LinearLayout>

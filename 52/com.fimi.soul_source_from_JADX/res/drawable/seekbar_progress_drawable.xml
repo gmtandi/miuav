@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item android:id="0x1020000" android:drawable="@drawable/seekbar_bg" />
+    <item android:id="0x102000f" android:drawable="@drawable/seekbar_second_progress" />
+    <item android:id="0x102000d">
+        <clip>
+            <nine-patch android:src="@drawable/seekbar_progress" />
+        </clip>
+    </item>
+</layer-list>

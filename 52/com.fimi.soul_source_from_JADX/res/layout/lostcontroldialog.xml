@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fimi.kernel.view.percent.PercentRelativeLayout app:layout_width="-1" app:layout_height="-1">
+    <ImageView app:id="@id/backgroundic" app:layout_width="0dp" app:layout_height="0dp" app:src="@drawable/serious_warning_bg" app:layout_centerHorizontal="true" app:layout_centerVertical="true" app:layout_widthPercent="48.229%w" app:layout_heightPercent="40.74%h" />
+    <ImageView app:id="@id/erroric" app:layout_width="0dp" app:layout_height="0dp" app:src="@drawable/internal_fault" app:layout_centerVertical="true" app:layout_widthPercent="36.667%h" app:layout_heightPercent="36.667%h" app:layout_marginLeftPercent="27.604%w" />
+    <com.fimi.kernel.view.percent.PercentRelativeLayout app:layout_width="-2" app:layout_height="-2" app:layout_toRightOf="@id/erroric" app:layout_centerHorizontal="true" app:layout_centerVertical="true" app:layout_marginTopPercent="1.77%w">
+        <TextView app:textSize="@dimen/lostdronetitle" app:textColor="@color/white" app:id="@id/title" app:layout_width="-2" app:layout_height="-2" app:text="@string/lostcontroltitle" />
+        <TextView app:textSize="@dimen/lostdronereason" app:textColor="@color/white" app:id="@id/desmessage" app:layout_width="-2" app:layout_height="-2" app:text="@string/lostcontrodes" app:layout_below="@id/title" app:alpha="0.7" app:layout_marginTopPercent="1%h" />
+    </com.fimi.kernel.view.percent.PercentRelativeLayout>
+</com.fimi.kernel.view.percent.PercentRelativeLayout>

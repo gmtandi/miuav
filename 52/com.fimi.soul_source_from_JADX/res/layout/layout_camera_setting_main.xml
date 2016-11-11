@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/sc_settingMain" android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:orientation="1" android:id="@id/lv_viewContent" android:background="#d0000000" android:layout_width="-1" android:layout_height="-2" android:baselineAligned="false" />
+</ScrollView>

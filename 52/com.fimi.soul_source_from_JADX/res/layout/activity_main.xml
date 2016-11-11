@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout widget:layout_gravity="5" widget:id="@id/drawerview" widget:layout_width="-1" widget:layout_height="-1">
+    <RelativeLayout widget:layout_width="-1" widget:layout_height="-1">
+        <FrameLayout widget:id="@id/mapFragment" widget:layout_width="-1" widget:layout_height="-1" />
+        <FrameLayout widget:id="@id/flyaction" widget:layout_width="-1" widget:layout_height="-1" />
+        <FrameLayout widget:id="@id/takephoto" widget:layout_width="-1" widget:layout_height="-1" />
+        <RelativeLayout widget:id="@id/normal_rla" widget:layout_width="-1" widget:layout_height="-1">
+            <FrameLayout widget:id="@id/cameraFragment" widget:layout_width="-1" widget:layout_height="-1" />
+            <FrameLayout widget:id="@id/handleWapoint" widget:layout_width="-1" widget:layout_height="-1" />
+            <FrameLayout widget:id="@id/showBasedata" widget:layout_width="-1" widget:layout_height="-2" />
+            <FrameLayout widget:id="@id/showStatus" widget:layout_width="-1" widget:layout_height="-1" />
+            <FrameLayout widget:id="@id/showitemhight" widget:layout_width="-1" widget:layout_height="-1" />
+            <FrameLayout widget:id="@id/activity_general_setting" widget:layout_width="-1" widget:layout_height="-1" />
+        </RelativeLayout>
+        <ProgressBar widget:id="@id/progrebar" widget:visibility="2" widget:layout_width="-2" widget:layout_height="-2" widget:indeterminateDrawable="@drawable/updateoutime" widget:layout_centerHorizontal="true" widget:layout_centerVertical="true" />
+        <TextView widget:textSize="133dp" widget:textStyle="1" widget:textColor="#00b5db" widget:id="@id/reciprocal_value" widget:visibility="2" widget:layout_width="-2" widget:layout_height="-2" widget:layout_centerHorizontal="true" widget:layout_centerVertical="true" />
+        <FrameLayout widget:id="@id/lead_layout" widget:layout_width="-1" widget:layout_height="-1" />
+    </RelativeLayout>
+    <fragment widget:name="com.fimi.soul.module.droneFragment.ShowDroneControlFragment" widget:layout_gravity="800005" widget:id="@id/controlfragment" widget:layout_width="-1" widget:layout_height="-1" widget:layout_marginRight="-64dp" />
+</android.support.v4.widget.DrawerLayout>

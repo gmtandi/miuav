@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+    <FrameLayout android:id="@id/compass_begin" android:layout_width="-1" android:layout_height="-1" />
+    <FrameLayout android:id="@id/compass_first" android:layout_width="-1" android:layout_height="-1" />
+    <FrameLayout android:id="@id/compass_second" android:layout_width="-1" android:layout_height="-1" />
+    <FrameLayout android:id="@id/compass_error" android:layout_width="-1" android:layout_height="-1" />
+    <FrameLayout android:id="@id/compass_thrid" android:layout_width="-1" android:layout_height="-1" />
+    <FrameLayout android:id="@id/compass_four" android:layout_width="-1" android:layout_height="-1" />
+    <FrameLayout android:id="@id/compass_error_vertail" android:layout_width="-1" android:layout_height="-1" />
+</RelativeLayout>

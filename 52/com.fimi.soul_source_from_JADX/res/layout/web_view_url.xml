@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1">
+    <include android:layout_width="-1" android:layout_height="58dp" layout="@layout/webview_header_layout" />
+    <ImageView android:background="@color/white_90" android:layout_width="-1" android:layout_height="1dp" />
+    <WebView android:id="@id/web_view" android:layout_width="-1" android:layout_height="-1" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_imagePager" android:layout_width="-1" android:layout_height="-1">
+    <com.fimi.soul.view.HackyViewPager android:id="@id/pager" android:background="0x106000c" android:layout_width="-1" android:layout_height="-1" />
+    <TextView android:textSize="18sp" android:textColor="0x106000b" android:gravity="11" android:layout_gravity="50" android:id="@id/indicator" android:background="@asyncimageview/a" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true" />
+    <include layout="@layout/part_tab_media_top" />
+    <include layout="@layout/part_media_bar_bottom" />
+    <include layout="@layout/part_media_progress_bottom" />
+    <ImageButton android:id="@id/playButton" android:background="@drawable/btn_media_play_big" android:visibility="2" android:layout_width="67dp" android:layout_height="67dp" android:layout_centerInParent="true" />
+</RelativeLayout>

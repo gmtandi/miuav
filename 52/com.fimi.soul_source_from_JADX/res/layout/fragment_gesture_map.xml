@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+    <android.gesture.GestureOverlayView android:id="@id/overlay1" android:layout_width="-1" android:layout_height="-1" android:gestureColor="@color/white" android:gestureStrokeType="0" android:gestureStrokeLengthThreshold="0.001" android:eventsInterceptionEnabled="false" android:fadeEnabled="false" />
+</RelativeLayout>

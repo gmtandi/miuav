@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:background="@asyncimageview/a" android:padding="5dp" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:textColor="0x106000b" android:id="@id/pop_item" android:layout_width="-2" android:layout_height="-2" android:layout_margin="5dp" />
+</LinearLayout>

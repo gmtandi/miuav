@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fimi.kernel.view.percent.PercentRelativeLayout app:background="@drawable/calibration_compass" app:layout_width="-1" app:layout_height="-1">
+    <TextView app:textSize="@dimen/calicompass" app:textColor="@color/white" app:id="@id/tv_title" app:layout_width="-2" app:layout_height="-2" app:text="@string/gimbal_calibration" app:layout_centerHorizontal="true" app:alpha="0.9" app:layout_marginTopPercent="7.5925%h" />
+    <TextView app:textSize="@dimen/descalicompass" app:textColor="#ff4e00" app:id="@id/tv_result" app:layout_width="-2" app:layout_height="-2" app:layout_below="@id/tv_title" app:layout_centerHorizontal="true" app:layout_marginTopPercent="2.4%h" />
+    <ImageView app:id="@id/img_result" app:layout_width="-2" app:layout_height="-2" app:layout_centerHorizontal="true" app:layout_centerVertical="true" />
+    <Button app:textSize="@dimen/remotcalinext" app:textColor="@color/white" app:gravity="11" app:id="@id/btn_finish" app:background="@drawable/remotenext" app:layout_width="0dp" app:layout_height="0dp" app:text="@string/finish" app:layout_alignParentBottom="true" app:layout_centerHorizontal="true" app:layout_widthPercent="23.75%w" app:layout_heightPercent="10.370%h" app:layout_marginBottomPercent="7.4074%h" />
+</com.fimi.kernel.view.percent.PercentRelativeLayout>

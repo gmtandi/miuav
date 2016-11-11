@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:orientation="1" app:background="@drawable/dialog_bg" app:layout_width="361dp" app:layout_height="143.6dp">
+    <TextView app:textSize="13.6sp" app:textStyle="1" app:textColor="#b4000000" app:gravity="11" app:id="@id/msg_tv" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="21dp" app:layout_centerHorizontal="true" />
+    <TextView app:textSize="13.6sp" app:textStyle="1" app:textColor="#cc000000" app:gravity="11" app:id="@id/msg_child_tv" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="3dp" app:layout_below="@id/msg_tv" app:layout_centerHorizontal="true" />
+    <Button app:textSize="13sp" app:textColor="#b3000000" app:layout_gravity="11" app:id="@id/dialog_btn" app:background="@drawable/btn_bg_dialog_single_selector" app:layout_width="314dp" app:layout_height="40.6dp" app:layout_marginTop="22dp" app:layout_marginBottom="21dp" app:text="@string/good" app:layout_below="@id/msg_child_tv" app:layout_centerHorizontal="true" />
+</RelativeLayout>

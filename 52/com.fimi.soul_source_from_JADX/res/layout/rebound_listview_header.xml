@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="10" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+    <RelativeLayout android:id="@id/head_contentLayout" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="-2">
+        <FrameLayout android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+            <ImageView android:layout_gravity="11" android:id="@id/head_arrowImageView" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/uet_rebound_listview_arrow" android:contentDescription="@string/app_name" />
+            <ProgressBar android:layout_gravity="11" android:id="@id/head_progressBar" android:visibility="2" android:layout_width="-2" android:layout_height="-2" style="?unknown_attr_ref: 1010079" />
+        </FrameLayout>
+        <LinearLayout android:gravity="1" android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+            <TextView android:textSize="18sp" android:textColor="0x106000c" android:id="@id/head_tipsTextView" android:layout_width="-2" android:layout_height="-2" android:text="@string/refresh_release_refresh" />
+            <TextView android:textSize="12sp" android:textColor="0x106000c" android:id="@id/head_lastUpdatedTextView" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="6dp" android:text="@string/refresh_refresh_lasttime" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

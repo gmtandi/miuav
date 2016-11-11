@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:drawable="@drawable/line" android:insetLeft="23dp" android:insetRight="23dp" />

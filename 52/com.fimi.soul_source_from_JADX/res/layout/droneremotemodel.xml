@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fimi.kernel.view.percent.PercentRelativeLayout app:background="#202020" app:layout_width="-1" app:layout_height="-1">
+    <include app:id="@id/heardView" app:layout_width="-1" app:layout_height="0dp" app:layout_heightPercent="13.79%" layout="@layout/settingheardview" />
+    <TextView app:id="@id/viewlinte" app:background="#4a4a4a" app:layout_width="-1" app:layout_height="0dp" app:layout_below="@id/heardView" app:layout_heightPercent="0.2%h" />
+    <TextView app:textSize="11.2sp" app:textColor="@color/white" app:id="@id/leftremotetext" app:layout_width="-2" app:layout_height="-2" app:text="@string/leftremote" app:layout_below="@id/viewlinte" app:alpha="0.6" app:layout_marginLeftPercent="24.0625%w" app:layout_marginTopPercent="10%h" />
+    <TextView app:textSize="11.2sp" app:textColor="@color/white" app:id="@id/rightremotetext" app:layout_width="-2" app:layout_height="-2" app:text="@string/rightremote" app:layout_below="@id/viewlinte" app:layout_alignParentRight="true" app:alpha="0.6" app:layout_marginTopPercent="10%h" app:layout_marginRightPercent="24.0625%w" />
+    <ImageView app:id="@id/remoteviewleft" app:layout_width="0dp" app:layout_height="0dp" app:src="@drawable/switchover_usa_left_bg" app:layout_below="@id/heardView" app:layout_widthPercent="30.2645%w" app:layout_heightPercent="43.7962%h" app:layout_marginLeftPercent="11.5625%w" app:layout_marginTopPercent="18.982%h" />
+    <ImageView app:id="@id/remoteviewright" app:layout_width="0dp" app:layout_height="0dp" app:src="@drawable/switchover_usa_right_bg" app:layout_below="@id/heardView" app:layout_alignParentRight="true" app:layout_widthPercent="30.2645%w" app:layout_heightPercent="43.7962%h" app:layout_marginTopPercent="18.982%h" app:layout_marginRightPercent="11.5625%w" />
+    <com.fimi.kernel.view.percent.PercentLinearLayout app:gravity="11" app:orientation="0" app:layout_width="0dp" app:layout_height="0dp" app:weightSum="2.0" app:layout_alignParentBottom="true" app:layout_centerHorizontal="true" app:layout_widthPercent="26.5625%w" app:layout_heightPercent="9.444%h" app:layout_marginBottomPercent="8.888%h">
+        <Button app:textSize="11.2sp" app:textColor="@color/white" app:gravity="11" app:id="@id/usabutton" app:background="@drawable/remoteleftbg" app:layout_width="0dp" app:layout_height="-1" app:text="@string/modelcannal" app:layout_weight="1.0" />
+        <Button app:textSize="11.2sp" app:textColor="@color/white" app:gravity="11" app:id="@id/jpabutton" app:background="@drawable/remoterightbg" app:layout_width="0dp" app:layout_height="-1" app:text="@string/modelcannaljp" app:layout_weight="1.0" />
+    </com.fimi.kernel.view.percent.PercentLinearLayout>
+</com.fimi.kernel.view.percent.PercentRelativeLayout>

@@ -1,0 +1,27 @@
+package com.facebook.imagepipeline.animated.base;
+
+import javax.annotation.concurrent.Immutable;
+
+@Immutable
+public class AnimatedDrawableOptions {
+    public static AnimatedDrawableOptions DEFAULTS;
+    public final boolean allowPrefetching;
+    public final boolean enableDebugging;
+    public final boolean forceKeepAllFramesInMemory;
+    public final int maximumBytes;
+
+    static {
+        DEFAULTS = newBuilder().build();
+    }
+
+    public AnimatedDrawableOptions(AnimatedDrawableOptionsBuilder animatedDrawableOptionsBuilder) {
+        this.forceKeepAllFramesInMemory = animatedDrawableOptionsBuilder.getForceKeepAllFramesInMemory();
+        this.allowPrefetching = animatedDrawableOptionsBuilder.getAllowPrefetching();
+        this.maximumBytes = animatedDrawableOptionsBuilder.getMaximumBytes();
+        this.enableDebugging = animatedDrawableOptionsBuilder.getEnableDebugging();
+    }
+
+    public static AnimatedDrawableOptionsBuilder newBuilder() {
+        return new AnimatedDrawableOptionsBuilder();
+    }
+}

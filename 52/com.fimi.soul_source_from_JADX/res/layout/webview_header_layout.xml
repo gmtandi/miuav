@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="10" android:orientation="0" android:background="#2a2a2a" android:layout_width="-1" android:layout_height="50dp">
+    <ImageView android:id="@id/back_btn" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9.6dp" android:src="@drawable/btn_setting_back_selector" android:layout_centerVertical="true" />
+    <TextView android:textSize="15sp" android:textColor="@color/white" android:id="@id/title" android:layout_width="-2" android:layout_height="-2" android:text="@string/xiaomi_insurance" android:layout_centerInParent="true" />
+    <Button android:textSize="12sp" android:textColor="@color/white" android:gravity="11" android:id="@id/right_bt" android:background="@drawable/frame_selector" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="-2" android:layout_height="28dp" android:layout_marginRight="9.6dp" android:text="@string/xiaomi_insurance_policy" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

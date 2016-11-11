@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout fresco:layout_gravity="10" fresco:background="@drawable/settingtextbg" fresco:layout_width="-1" fresco:layout_height="-2" fresco:layout_marginTop="@dimen/buttontop">
+    <com.facebook.drawee.view.SimpleDraweeView fresco:id="@id/imageView1" fresco:background="@drawable/defaultavatar" fresco:layout_width="@dimen/topimage" fresco:layout_height="@dimen/topimage" fresco:layout_marginLeft="@dimen/buttontop" fresco:layout_marginTop="@dimen/arrowswith" fresco:scaleType="6" fresco:layout_toRightOf="@id/listnum" fresco:failureImage="@drawable/defaultavatar" fresco:failureImageScaleType="2" fresco:roundAsCircle="true" />
+    <TextView fresco:textSize="14dp" fresco:textColor="@color/historytime" fresco:gravity="10" fresco:id="@id/flytime" fresco:layout_width="-2" fresco:layout_height="-2" fresco:layout_marginLeft="15dp" fresco:text="飞行时间:" fresco:layout_toRightOf="@id/imageView1" fresco:layout_below="@id/nickname" />
+    <TextView fresco:textSize="14dp" fresco:textColor="@color/historytime" fresco:gravity="10" fresco:id="@id/flytimedescribe" fresco:layout_width="-2" fresco:layout_height="-2" fresco:text="20分" fresco:layout_toRightOf="@id/flytime" fresco:layout_below="@id/nickname" />
+    <View fresco:layout_marginTop="@dimen/arrowswith" fresco:layout_below="@id/imageView1" style="@style/view_line2" />
+    <TextView fresco:textSize="15dp" fresco:textColor="@color/blacksex" fresco:id="@id/nickname" fresco:layout_width="-2" fresco:layout_height="-2" fresco:layout_marginTop="@dimen/historytop" fresco:text="飞机" fresco:layout_alignLeft="@id/flytime" fresco:layout_alignTop="@id/imageView1" />
+    <TextView fresco:textSize="@dimen/fcsettingsize" fresco:textColor="@color/blacksex" fresco:id="@id/listnum" fresco:paddingLeft="@dimen/paddingleft" fresco:layout_width="-2" fresco:layout_height="-2" fresco:text="1" fresco:layout_alignParentLeft="true" fresco:layout_centerVertical="true" />
+</RelativeLayout>

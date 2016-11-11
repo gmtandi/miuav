@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+    <FrameLayout android:id="@id/fl_prepare" android:layout_width="-1" android:layout_height="-1" />
+    <FrameLayout android:id="@id/fl_calibrating" android:layout_width="-1" android:layout_height="-1" />
+    <FrameLayout android:id="@id/fl_success" android:layout_width="-1" android:layout_height="-1" />
+    <FrameLayout android:id="@id/fl_fail" android:layout_width="-1" android:layout_height="-1" />
+</RelativeLayout>

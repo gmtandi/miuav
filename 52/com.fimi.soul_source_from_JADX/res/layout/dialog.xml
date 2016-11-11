@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1"
+    <RelativeLayout android:background="@drawable/frame_dalog" android:layout_width="180dp" android:layout_height="140dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <TextView android:textSize="14dp" android:textColor="#ff00ff8a" android:id="@id/waypoint" android:paddingTop="1dp" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="15dp" android:textColor="#ffffffff" android:id="@id/textView1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginTop="5dp" android:text="高度：" android:layout_below="@id/waypoint" />
+        <SeekBar android:id="@id/seebar" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="6dp" android:progressDrawable="@drawable/po_seekbar" android:thumb="@drawable/seekbar_rotate" android:layout_below="@id/textView1" />
+        <ImageView android:id="@id/closex" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="5dp" android:src="@drawable/closes" android:layout_alignParentRight="true" />
+        <TextView android:textSize="15dp" android:textColor="#ffffffff" android:id="@id/sethight" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="15dp" android:layout_above="@id/seebar" android:layout_alignParentRight="true" />
+        <RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="12dp" android:layout_below="@id/seebar">
+            <View android:id="@id/dividinglineview" android:layout_width="0dp" android:layout_height="-2" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            <Button android:textColor="#ffffffff" android:gravity="11" android:id="@id/deleteitem" android:background="@drawable/leftbtn_selector" android:layout_width="-2" android:layout_height="-2" android:text="@string/delete" android:layout_toLeftOf="@id/dividinglineview" />
+            <Button android:textColor="#ffffff" android:gravity="11" android:id="@id/sendbtn2" android:background="@drawable/rightbtn_selector" android:layout_width="-2" android:layout_height="-2" android:text="@string/ensure" android:layout_toRightOf="@id/dividinglineview" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

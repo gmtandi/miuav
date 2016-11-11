@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout style="@style/CameraSettingOptionLayout">
+        <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+            <Button android:gravity="11" android:id="@id/btn_settingActionFirst" android:layout_width="@dimen/camera_setting_round_button_width" android:text="@string/relay_reset" style="@style/CameraSettingRoundButtonBase" />
+            <Button android:gravity="11" android:id="@id/btn_settingActionSecond" android:layout_width="@dimen/camera_setting_round_button_width" android:text="@string/save" style="@style/CameraSettingRoundButtonBase" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View style="@style/CameraSettingLine" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout fresco:background="#1f1f21" fresco:layout_width="-1" fresco:layout_height="-1">
+    <com.fimi.soul.view.photodraweeview.PhotoDraweeView fresco:layout_gravity="11" fresco:id="@id/image" fresco:layout_width="-1" fresco:layout_height="-1" fresco:adjustViewBounds="true" fresco:failureImage="@drawable/image_damage" fresco:actualImageScaleType="2" />
+    <ProgressBar fresco:layout_gravity="11" fresco:id="@id/loading" fresco:visibility="2" fresco:layout_width="-2" fresco:layout_height="-2" fresco:indeterminateDrawable="@drawable/progress_media" />
+</FrameLayout>

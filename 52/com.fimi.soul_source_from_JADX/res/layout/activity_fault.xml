@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="3" android:layout_gravity="11" android:orientation="0" android:background="@drawable/serious_warning_bg" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="160dp" android:layout_marginTop="110dp" android:layout_marginRight="160dp" android:layout_marginBottom="110dp"
+    <LinearLayout android:gravity="13" android:layout_width="-2" android:layout_height="-1">
+        <ImageView android:id="@id/error_icon" android:layout_width="150dp" android:layout_height="150dp" android:src="@drawable/internal_fault" />
+    </LinearLayout>
+    <LinearLayout android:gravity="13" android:orientation="1" android:layout_width="-2" android:layout_height="-1">
+        <TextView android:textSize="42px" android:textStyle="1" android:textColor="#ccffffff" android:layout_gravity="3" android:id="@id/fault_title" android:layout_width="-2" android:layout_height="-2" android:text="title" android:singleLine="true" />
+        <TextView android:textSize="32px" android:textColor="#80ffffff" android:layout_gravity="3" android:id="@id/fault_describe" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="34px" android:text="describe" android:singleLine="true" />
+        <Button android:textSize="40px" android:textColor="#b2ffffff" android:gravity="11" android:id="@id/command_one" android:background="@drawable/register_btn_selector" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="83px" android:text="@string/autoreturnto" />
+        <Button android:textSize="40px" android:textColor="#b2ffffff" android:gravity="11" android:id="@id/command_two" android:background="@drawable/register_btn_selector" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="50px" android:text="@string/auto_land" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <ImageView android:id="@id/login_animation_iv" android:background="@drawable/p1" android:layout_width="-1" android:layout_height="-1" />
+</LinearLayout>

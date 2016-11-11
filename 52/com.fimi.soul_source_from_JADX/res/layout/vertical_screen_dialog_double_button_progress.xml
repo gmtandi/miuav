@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:id="@id/rl" app:background="@drawable/dialog_background_inset" app:paddingLeft="8dp" app:paddingRight="8dp" app:layout_width="-1" app:layout_height="-2">
+    <TextView app:textSize="14dp" app:textColor="#ff000000" app:id="@id/msg_tv" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="30dp" app:layout_centerHorizontal="true" />
+    <RelativeLayout app:gravity="11" app:id="@id/seekbar_ll" app:layout_width="286dp" app:layout_height="-2" app:layout_marginTop="26.6dp" app:layout_below="@id/msg_tv" app:layout_centerHorizontal="true">
+        <TextView app:textSize="10dp" app:textColor="#81000000" app:id="@id/dialog_unit_tv" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="8dp" app:layout_marginTop="4dp" app:text="@string/distancing" />
+        <TextView app:textSize="12dp" app:textColor="#ff4f00" app:id="@id/progress_tv" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="5dp" app:text="0m" app:layout_toRightOf="@id/dialog_unit_tv" />
+        <SeekBar app:id="@id/seekbar" app:paddingLeft="8dp" app:paddingRight="8dp" app:layout_width="286dp" app:layout_height="-2" app:layout_marginTop="5dp" app:maxHeight="1.3dp" app:progressDrawable="@drawable/progress_horizonl" app:minHeight="1.3dp" app:thumb="@drawable/btn_fly_height" app:layout_below="@id/dialog_unit_tv" />
+        <TextView app:textSize="12dp" app:textColor="#66000000" app:id="@id/min_progress_tv" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="9dp" app:text="0" app:layout_below="@id/seekbar" />
+        <TextView app:textSize="12dp" app:textColor="#66000000" app:id="@id/max_progress_tv" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="8dp" app:text="2000" app:layout_below="@id/seekbar" app:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <LinearLayout app:orientation="0" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="30dp" app:layout_below="@id/seekbar_ll">
+        <Button app:textSize="14sp" app:textColor="#b2000000" app:gravity="11" app:id="@id/left_btn" app:background="@drawable/btn_dialog_left_selector" app:layout_width="-1" app:layout_height="52.6dp" app:text="@string/cancel" app:layout_weight="1.0" app:layout_alignParentLeft="true" />
+        <Button app:textSize="14sp" app:textColor="#b2000000" app:gravity="11" app:id="@id/right_btn" app:background="@drawable/btn_dialog_right_selector" app:layout_width="-1" app:layout_height="52.6dp" app:text="@string/ensure" app:layout_weight="1.0" app:layout_toRightOf="@id/left_btn" />
+    </LinearLayout>
+</RelativeLayout>

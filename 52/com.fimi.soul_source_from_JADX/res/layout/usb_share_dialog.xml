@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:background="@drawable/bg_dialog" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:textSize="14sp" android:textColor="@color/black_50" android:gravity="11" android:id="@id/msg_tv" android:layout_width="-2" android:layout_height="82dp" android:text="@string/usb_network_share" android:layout_centerHorizontal="true" android:lineSpacingExtra="3dp" />
+    <ImageView android:gravity="11" android:id="@id/imageview" android:background="@drawable/bg_dialog_usb_android" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="71.3dp" android:layout_centerHorizontal="true" />
+    <Button android:textSize="14sp" android:textColor="@color/black_80" android:gravity="11" android:id="@id/single_btn" android:background="@drawable/btn_dialog_center_selector" android:layout_width="-1" android:layout_height="52.3dp" android:layout_marginTop="23.3dp" android:text="@string/good" android:layout_below="@id/imageview" />
+</RelativeLayout>
