@@ -1,0 +1,6 @@
+./apktool d *.apk
+./apktool b * -o eggfly.apk
+
+apksigner sign --ks jks
+
+
