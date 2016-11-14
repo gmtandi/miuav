@@ -95,7 +95,9 @@ public class FlightMapFragment extends DroneMap implements InfoWindowAdapter, On
 
     private void m11172a(LatLng latLng) {
         if (this.f8375r == null) {
-            this.f8375r = this.f.addCircle(new CircleOptions().center(latLng).radius(500.0d).strokeWidth(5.0f).strokeColor(getResources().getColor(C1205R.color.errortextcl)));
+            // #ffff4200: 红色
+            this.f8375r = this.f.addCircle(new CircleOptions().center(latLng).radius(500.0d).strokeWidth(5.0f)
+                    .strokeColor(getResources().getColor(C1205R.color.errortextcl)));
             return;
         }
         this.f8375r.setCenter(latLng);
@@ -111,14 +113,25 @@ public class FlightMapFragment extends DroneMap implements InfoWindowAdapter, On
                     this.f8371e.setRadius((double) (i + 100));
                 }
             } else {
-                this.f8371e = this.f.addCircle(new CircleOptions().center(latLng).radius((double) (i + 100)).strokeColor(Color.argb(Opcodes.LAND, 0, 0, 0)).strokeWidth(2.0f).fillColor(1 == i3 ? Color.argb(C1458u.f6934b, Opcodes.IFNULL, C2799f.f14282t, bn.f6797b) : Color.argb(C1458u.f6934b, Opcodes.LSUB, Opcodes.IMUL, Opcodes.FMUL)));
+                // 黑色
+                // rgb(198, 200, 203): 浅灰色
+                // rgb(101, 104, 106): 深灰色
+                this.f8371e = this.f.addCircle(new CircleOptions().center(latLng).radius((double) (i + 100))
+                        .strokeColor(Color.argb(Opcodes.LAND, 0, 0, 0)).strokeWidth(2.0f).fillColor(
+                                1 == i3 ? Color.argb(C1458u.f6934b, Opcodes.IFNULL, C2799f.f14282t, bn.f6797b)
+                                        : Color.argb(C1458u.f6934b, Opcodes.LSUB, Opcodes.IMUL, Opcodes.FMUL)));
             }
         } else if (this.f8371e != null) {
             this.f8371e.remove();
             this.f8371e = null;
         }
         if (this.f8370d == null || !this.f8366B.contains(this.f8370d)) {
-            this.f8370d = this.f.addCircle(new CircleOptions().center(latLng).radius((double) i).strokeColor(Color.argb(Opcodes.LAND, Util.MASK_8BIT, 54, 0)).strokeWidth(2.0f).fillColor(Color.argb(51, Util.MASK_8BIT, 54, 0)).zIndex(100.0f));
+            // rgb(255, 54, 0): 红色
+            // rgb(255, 54, 0): 红色
+            // zIndex 100
+            this.f8370d = this.f.addCircle(new CircleOptions().center(latLng).radius((double) i)
+                    .strokeColor(Color.argb(Opcodes.LAND, Util.MASK_8BIT, 54, 0)).strokeWidth(2.0f)
+                    .fillColor(Color.argb(51, Util.MASK_8BIT, 54, 0)).zIndex(100.0f));
         } else {
             this.f8370d.setCenter(latLng);
             if (((double) i) != this.f8370d.getRadius()) {
