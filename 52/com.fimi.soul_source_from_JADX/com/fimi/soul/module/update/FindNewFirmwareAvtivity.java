@@ -36,7 +36,7 @@ import java.io.File;
 import java.util.List;
 import org.codehaus.jackson.org.objectweb.asm.Type;
 import org.codehaus.jackson.smile.SmileConstants;
-
+// 发现新的固件版本：立即升级
 public class FindNewFirmwareAvtivity extends BaseActivity implements OnClickListener, C1213e<X11RespCmd> {
     public static final String f9699a = "upgrade_firmwares";
     boolean f9700b;

@@ -22,7 +22,7 @@ import com.fimi.soul.module.setting.newhand.NewHandActivity;
 import com.fimi.soul.utils.ay;
 import com.fimi.soul.utils.be;
 import org.codehaus.jackson.smile.SmileConstants;
-
+// 发现新的固件版本：下载
 public class FindOnlineFirmwareAvtivity extends BaseActivity implements OnClickListener {
     private Button f9714a;
     private Button f9715b;
